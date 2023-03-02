@@ -1,0 +1,91 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title {
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+
+.meniu_food {
+    background: linear-gradient(#686868,#262626);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 35px;
+}
+
+.meniu_drinks {
+    background: linear-gradient(rgba(246,234,210,1),rgba(195,169,126,1));
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 35px;
+}
+
+.meniu_vinuri {
+    background: linear-gradient(rgba(248,88,68,0.9),rgba(192,23,10,0.9));
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-width: 600px){
+    .body {
+        display: block;
+    }
+
+    .header {
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        justify-content: center;
+    }
+
+    .title {
+        margin-top: 12px;
+    }
+
+
+    .meniu_food {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+
+    .meniu_drinks {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+
+    .meniu_vinuri {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
